@@ -1,5 +1,3 @@
-
-
 const board=document.querySelector(".gameboard");
 const img=document.querySelector('.img');
 const starttext=document.getElementById('starttext');
@@ -22,7 +20,6 @@ function  draw(){
 let direction='right';
 const gridsize=20;
 let food=generateFood();
-
 
 function drawsnake(){
    snake.forEach((segment)=>{
